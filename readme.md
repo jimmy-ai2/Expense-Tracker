@@ -3,10 +3,16 @@
 A simple and responsive web app to track your income and expenses.  
 Built with **Vanilla JavaScript** and **LocalStorage** for a fast, database-free experience.
 
+[Live Demo](https://jimmy-ai2.github.io/Expense-Tracker/)
+
 ## About
 
 This app helps users monitor their financial activity by adding income and expense transactions.  
 All data is stored locally in the browser and updates instantly.
+
+### Snapshot
+
+<img width="1546" height="892" alt="Expense Tracker snap" src="https://github.com/user-attachments/assets/0db02f21-23f5-400b-a520-f5ed06a41538" />
 
 ## Features
 
