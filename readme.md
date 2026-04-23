@@ -1,76 +1,98 @@
 # Expense Tracker
 
-A simple and responsive web app to track your income and expenses.  
-Built with **Vanilla JavaScript** and **LocalStorage** for a fast, database-free experience.
+A modern, responsive web application that helps users track their income and expenses while providing a clear overview of their financial balance in real time.
 
-[Live Demo](https://jimmy-ai2.github.io/Expense-Tracker/)
-
-## About
-
-This app helps users monitor their financial activity by adding income and expense transactions.  
-All data is stored locally in the browser and updates instantly.
-
-### Snapshot
-
-<img width="1546" height="892" alt="Expense Tracker snap" src="https://github.com/user-attachments/assets/0db02f21-23f5-400b-a520-f5ed06a41538" />
+---
 
 ## Features
 
-- Real-time balance, income, and expense calculation
-- Add income (positive values) and expenses (negative values)
-- Transaction history with latest entries on top
-- Delete transactions instantly
-- Color indicators (green = income, red = expense)
-- Data persistence using **LocalStorage**
-- Responsive and modern UI design
+- **Real-Time Balance Updates**  
+  Automatically calculates total balance, income, and expenses.
+
+- **Transaction History**  
+  Displays a list of transactions with:
+  - 🟢 Income (green)
+  - 🔴 Expenses (red)
+
+- **Data Persistence**  
+  Saves data using **localStorage** so it remains after refresh.
+
+- **Intuitive Input System**  
+  Simple form with validation for adding transactions.
+
+- **Interactive UI**  
+  - Hover effects  
+  - Smooth animations  
+  - One-click delete  
+
+- **Responsive Design**  
+  Works seamlessly across desktop and mobile devices.
+
+---
 
 ## Tech Stack
 
-- **HTML5** – structure
-- **CSS3** – layout (Flexbox & Grid) and animations
-- **JavaScript (ES6+)** – logic and data handling
-- **Google Fonts (Poppins)** – typography
-- **Intl.NumberFormat API** – currency formatting
+- **HTML5** – Structure of the app  
+- **CSS3** – Styling using Flexbox, Grid, and animations  
+- **JavaScript (ES6+)** – Core logic and state management  
+  - `.filter()` & `.reduce()` for calculations  
+  - DOM manipulation for dynamic updates  
+  - `Intl.NumberFormat` for currency formatting  
+- **Google Fonts** – Poppins font  
+
+---
+
+
+## Live Demo
+[Check out the Live Demo](https://jimmy-ai2.github.io/Expense-Tracker/)
+
+---
 
 ## How to Use
 
-1.  **Clone the repository:**
+1. **Add Income**  
+   Enter a description and a positive amount (e.g., `5000`).
 
-    ```
-    git clone https://github.com/jimmy-ai2/Expense-Tracker.git
-    ```
+2. **Add Expense**  
+   Enter a description and a negative amount (e.g., `-1200`).
 
-2.  Open `index.html` in your browser
+3. **Track Balance**  
+   View your total balance, income, and expenses at the top.
 
-3.  Add a transaction:
-    - Enter a description (e.g., Salary)
-    - Enter an amount:
-      - Positive → Income (e.g., 5000)
-      - Negative → Expense (e.g., -1200)
+4. **Manage Transactions**  
+   - View history in the transactions list  
+   - Click ❌ to delete an entry  
 
-4.  View your:
-    - Total balance
-    - Total income
-    - Total expenses
+---
 
-5.  Delete a transaction:
-    - Hover over it
-    - Click the **x** button
+## Screenshots
+<img width="1546" height="892" alt="Expense Tracker snap" src="https://github.com/user-attachments/assets/0db02f21-23f5-400b-a520-f5ed06a41538" />
 
-## Key Concepts
-
-- **LocalStorage** for saving transactions
-- **DOM manipulation** for real-time updates
-- **Array methods** to manage transaction data
-- **Intl.NumberFormat** for formatting currency
+---
 
 ## Future Improvements
 
-- Add categories (Food, Rent, etc.)
-- Filter or search transactions
-- Monthly reports and charts
-- Export data (CSV or PDF)
+-  Transaction categories (Food, Transport, etc.)  
+-  Data visualization (charts & graphs)  
+-  Search and filtering  
+-  Export to CSV/PDF  
+-  Multi-currency support  
+
+---
+
+## About
+
+This project focuses on implementing **state management in Vanilla JavaScript**, using array methods like `.filter()` and `.reduce()` to handle financial calculations.
+
+It also emphasizes **user experience (UX)** through clean design, responsiveness, and real-time feedback, making personal finance tracking simple and intuitive.
+
+---
 
 ## Author
 
-Built as a project to practice **state management**, **DOM updates**, and **local data persistence** using JavaScript.
+**Jimmy Chege**  
+- GitHub: https://github.com/jimmy-ai2
+
+---
+
+⭐ *If you like this project, feel free to star the repo!*
